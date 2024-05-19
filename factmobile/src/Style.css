@@ -49,6 +49,7 @@
     display:flex;
     align-items: center;
     width:full;
+    min-width: 400;
     height: full;
     background-color: #1f1e1c;
     flex-direction: column;
@@ -106,7 +107,7 @@
 
 @media (max-width: 768px) {
   .tarjeta {
-      width: 20vw; 
+      width: 15rem; 
   }
 }
 .factopeq{
