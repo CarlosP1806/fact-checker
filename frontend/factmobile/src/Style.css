@@ -1,0 +1,61 @@
+.start{
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 13rem;
+    height: 13rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    pointer: cursor;
+}
+.testart{
+    color:white;
+    font:bold;
+    font-size: 25px;
+}
+.archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .mobile{
+    display:flex;
+    align-items: center;
+    width:40rem;
+    height: 70rem;
+    background-color: black;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .stop{
+    margin-top: 5rem;
+    background-color: light-gray;
+    color: black;
+    border-radius: 10px;
+    width: 10rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    pointer: cursor;
+  }
+  .fact{
+    color:white;
+    font-size: 30px;
+    font-weight:bold;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  audio {
+    margin-top: 2rem;
+    width: 20rem;
+    height: 60px;
+    background-color: white;
+    border: 1px solid #dee2e6;
+    border-radius: 2rem;
+    outline: none;
+}
