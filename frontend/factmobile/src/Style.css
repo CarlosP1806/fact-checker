@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 .start{
     background-color: red;
     color: white;
@@ -14,6 +15,17 @@
     color:white;
     font:bold;
     font-size: 25px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.testop{
+    color:black;
+    font:bold;
+    font-size: 15px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .archivo-black-regular {
     font-family: "Archivo Black", sans-serif;
@@ -24,8 +36,8 @@
     display:flex;
     align-items: center;
     width:40rem;
-    height: 70rem;
-    background-color: black;
+    height: 80rem;
+    background-color: #1f1e1c;
     flex-direction: column;
     justify-content: center;
   }
@@ -44,13 +56,13 @@
   }
   .fact{
     color:white;
-    font-size: 30px;
+    font-size: 40px;
     font-weight:bold;
     font-family: "Archivo Black", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
-  audio {
+  .audio {
     margin-top: 2rem;
     width: 20rem;
     height: 60px;
@@ -58,4 +70,45 @@
     border: 1px solid #dee2e6;
     border-radius: 2rem;
     outline: none;
+}
+.factos{
+    position:relative;
+    text-align:left;
+    color:white;
+    font-size: 25px;
+    font-weight:bold;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.tarjeta{
+    background-color: #252525;
+    width: 20rem;
+    height: 10rem;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.factopeq{
+    font-weight:bold;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:white;
+    text-align:left;
+    margin-left: 6rem;
+    position:relative;
+    top:1rem;
+}
+.tirando-factos{
+  color:white;
+  font-size: 1rem;
+  text-align: justify;
+  top:-4rem;
+  position: relative;
+}
+.bueno{
+  width: 5rem;
+  position: relative;
+  margin-right: 18rem;
+  top:-3rem;
 }
