@@ -12,7 +12,17 @@ const Tarjetas = () => {
   const handleCardClick = (index) => {
     setFlippedIndex(flippedIndex === index ? null : index);
   };
-
+  const getImage = (veredict) => {
+    if (veredict.includes('parcialmente')) {
+      if (veredict.includes('verdadera')) {
+        return bueno;
+      } else if (veredict.includes('falsa')) {
+        return malo;
+      }
+    }
+    // Imagen por defecto
+    return neutro;
+  };
   return (
     <div>
       {data.map((item, index) => (
@@ -25,7 +35,7 @@ const Tarjetas = () => {
             <div className="tarjeta-content">
               <p className="factopeq">{item.statement}</p>
               <p className="tirando-factos">{item.veredict}</p>
-              <img src={bueno} className="buenoi" alt="bueno" /> 
+              <img src={getImage(item.veredict)} className="buenoi" alt="veredicto" />
             </div>
           )}
         </div>
