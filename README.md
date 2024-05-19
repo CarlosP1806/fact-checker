@@ -40,3 +40,6 @@ API_KEY=your_key
 ```
 > npm start
 ```
+
+Link al video:
+https://drive.google.com/file/d/10LU7rCFX6e0YX0xvR9Wyw2s1RGOw4Hp0/view?usp=sharing
