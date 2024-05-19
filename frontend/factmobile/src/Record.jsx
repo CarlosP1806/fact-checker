@@ -1,10 +1,8 @@
 import { ReactMediaRecorder } from "react-media-recorder";
 import './Style.css';
-import bueno from './images/check.png'
-import malo from './images/delete.png'
-import neutro from  './images/neutro.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaperclip } from '@fortawesome/free-solid-svg-icons';
+import Tarjetas from "./Tarjetas";
 
 
 const RecordView = () => (
@@ -36,28 +34,7 @@ const RecordView = () => (
           <br/>
           <br/>
           <br/>
-          <div className="contar">
-          <div className="tarjeta">
-            <p className="factopeq"> Facto 1</p> 
-            <img src={bueno} className="bueno" alt="bueno" />
-            <p className="tirando-factos">De hecho. la pobreza en México ha disminuido el 90%</p>
-          </div>
-          <br/>
-          <br/>
-          <div className="tarjeta">
-            <p className="factopeq"> Facto 2</p> 
-            <img src={neutro} className="bueno" alt="neutro" />
-            <p className="tirando-factos">El género es un constructo social</p>
-          </div>
-          <br/>
-          <br/>
-          <div className="tarjeta">
-            <p className="factopeq"> Facto 3</p> 
-            <img src={malo} className="bueno" alt="malo" />
-            <p className="tirando-factos">Las mujeres no saben conducir</p>
-          </div>
-          </div>
-
+        <Tarjetas/> 
         </div>
       )}
     />
