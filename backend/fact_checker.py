@@ -5,7 +5,12 @@ import io
 from bs4 import BeautifulSoup
 import urllib.parse
 import requests
-client = OpenAI(api_key="sk-fact-checker-EHcye2oTeIFDNsrYRxirT3BlbkFJ7C20DxYR1MARJXmETo3f")
+from os import environ
+
+from dotenv import load_dotenv
+load_dotenv()
+
+client = OpenAI(api_key=environ.get('API_KEY'))
 
 bp = Blueprint('admin', __name__)
 
