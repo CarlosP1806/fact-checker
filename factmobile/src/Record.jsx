@@ -60,9 +60,9 @@ const RecordView = () => {
         render={({ status, startRecording, stopRecording, mediaBlobUrl }) => (
           <div className="mobile">
             <p className="fact">Fact checker</p>
-            <p>{status}</p>
+            <p className="estado">{status}</p>
             <button className="start" onClick={startRecording}>
-            <p className="testart">Empezar a  <br/> grabar</p>
+            <p className="testart">Empezar a <br/> grabar</p>
             </button>
             <button className="stop" onClick={stopRecording}>
               <p className="testop">Parar de grabar</p>
