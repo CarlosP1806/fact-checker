@@ -19,7 +19,7 @@ const Tarjetas = () => {
         <div className="tarjeta" key={index} onClick={() => handleCardClick(index)}>
           {flippedIndex === index ? (
             <div className="tarjeta-content flipped">
-                <p className="sourc">{item.sources}</p>
+                <p className="sourc"><span className="fuenteortiz">Fuentes</span> {item.sources}</p>
             </div>
           ) : (
             <div className="tarjeta-content">

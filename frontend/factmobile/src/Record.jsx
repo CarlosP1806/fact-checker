@@ -14,10 +14,10 @@ const RecordView = () => (
           <p className="fact">Fact checker</p>
           <p>{status}</p>
           <button className="start" onClick={startRecording}>
-          <p className="testart">Start <br/> Recording</p>
+          <p className="testart">Empezar a  <br/> grabar</p>
           </button>
           <button className="stop" onClick={stopRecording}>
-            <p className="testop">Stop Recording</p>
+            <p className="testop">Parar de grabar</p>
           </button>
           <audio className="mini" src={mediaBlobUrl} controls autoPlay />
           <br/>
