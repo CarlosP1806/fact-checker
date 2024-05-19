@@ -19,13 +19,13 @@ const Tarjetas = () => {
         <div className="tarjeta" key={index} onClick={() => handleCardClick(index)}>
           {flippedIndex === index ? (
             <div className="tarjeta-content flipped">
-              <p className="sourc">{item.sources}</p>
+                <p className="sourc">{item.sources}</p>
             </div>
           ) : (
             <div className="tarjeta-content">
               <p className="factopeq">{item.statement}</p>
-              <img src={bueno} className="bueno" alt="bueno" />
               <p className="tirando-factos">{item.veredict}</p>
+              <img src={bueno} className="buenoi" alt="bueno" /> 
             </div>
           )}
         </div>

@@ -1,6 +1,10 @@
 [
 	{
 		"sources": [
+			"https://www.bancomundial.org/es/topic/poverty/overview",
+			"https://www.un.org/es/global-issues/ending-poverty",
+			"https://www.pactomundial.org/ods/1-fin-de-la-pobreza/",
+			"https://www.dw.com/es/ha-disminuido-la-pobreza-extrema-desde-1990/a-67190366",
 			"https://www.bancomundial.org/es/news/press-release/2013/04/17/remarkable-declines-in-global-poverty-but-major-challenges-remain"
 		],
 		"statement": "En los últimos cien años, la población mundial ha aumentado en 6 mil millones de personas y la pobreza global ha disminuido sustancialmente.",
@@ -8,6 +12,9 @@
 	},
 	{
 		"sources": [
+			"https://repositorio.cepal.org/bitstream/handle/11362/35894/1/S2013806_es.pdf",
+			"https://www.oxfam.org/es/notas-prensa/cada-ano-189-millones-de-personas-son-afectadas-por-fenomenos-meteorologicos-extremos",
+			"https://www.ifrc.org/sites/default/files/2021-08/2020_WorldDisasters_Full_ES.pdf",
 			"https://www.oxfam.org/es/notas-prensa/cada-ano-189-millones-de-personas-son-afectadas-por-fenomenos-meteorologicos-extremos",
 			"https://www.oxfam.org/es/notas-prensa/cada-ano-189-millones-de-personas-son-afectadas-por-fenomenos-meteorologicos-extremos"
 		],
@@ -16,6 +23,10 @@
 	},
 	{
 		"sources": [
+			"https://www.un.org/es/climatechange/what-is-climate-change",
+			"https://archive.ipcc.ch/home_languages_main_spanish.shtml",
+			"https://www.un.org/es/global-issues/climate-change",
+			"https://www.un.org/es/climatechange/what-is-climate-change",
 			"https://www.un.org/es/global-issues/climate-change"
 		],
 		"statement": "El mayor problema con el cambio climático es cómo estamos lidiando con él, intentando controlar lo incontrolable.",
@@ -23,6 +34,10 @@
 	},
 	{
 		"sources": [
+			"https://www.bbc.com/mundo/noticias-internacional-43206097",
+			"https://www.bbc.com/mundo/noticias-internacional-43206097",
+			"https://www.un.org/spanish/waterforlifedecade/waterforlifevoices/casos_fao_lake_chad.shtml#:~:text=El%20Lago%20Chad%2C%20una%20vez,Agricultura%20(FAO)%20ya%20avis%C3%B3.",
+			"https://www.bbc.com/mundo/noticias-internacional-43206097",
 			"https://www.bbc.com/mundo/noticias-internacional-43206097"
 		],
 		"statement": "El lago Chad se está reduciendo debido a decisiones humanas, no principalmente al cambio climático.",
@@ -30,6 +45,9 @@
 	},
 	{
 		"sources": [
+			"https://www.un.org/es/climatechange/what-is-climate-change",
+			"https://www.ipcc.ch/languages-2/spanish/",
+			"https://www.un.org/es/global-issues/climate-change",
 			"https://ciencia.nasa.gov/cambio-climatico/evidencia/"
 		],
 		"statement": "Culpar cada desastre meteorológico al calentamiento global desafía el sentido común y el registro histórico de datos.",
