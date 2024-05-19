@@ -1,0 +1,66 @@
+[
+	{
+		"sources": [
+			"https://www.bancomundial.org/es/topic/poverty/overview",
+			"https://www.un.org/es/global-issues/ending-poverty",
+			"https://www.pactomundial.org/ods/1-fin-de-la-pobreza/",
+			"https://www.dw.com/es/ha-disminuido-la-pobreza-extrema-desde-1990/a-67190366",
+			"https://www.bancomundial.org/es/news/press-release/2013/04/17/remarkable-declines-in-global-poverty-but-major-challenges-remain"
+		],
+		"statement": "En los últimos cien años, la población mundial ha aumentado en 6 mil millones de personas y la pobreza global ha disminuido sustancialmente.",
+		"veredict": "La información es parcialmente verdadera. La población mundial ha aumentado en aproximadamente 6 mil millones de personas en los últimos cien años, pero la pobreza global ha disminuido solo en las últimas tres décadas. A pesar de que ha habido avances significativos en la reducción de la pobreza extrema en el mundo en desarrollo, con un descenso del 50% al 21% entre 1981 y 2010, todavía hay 1200 millones de personas viviendo en la pobreza extrema. En África al sur del Sahara, sigue viviendo más de las dos terceras partes de las personas en situación de pobreza extrema del mundo."
+	},
+	{
+		"sources": [
+			"https://repositorio.cepal.org/bitstream/handle/11362/35894/1/S2013806_es.pdf",
+			"https://www.oxfam.org/es/notas-prensa/cada-ano-189-millones-de-personas-son-afectadas-por-fenomenos-meteorologicos-extremos",
+			"https://www.ifrc.org/sites/default/files/2021-08/2020_WorldDisasters_Full_ES.pdf",
+			"https://www.oxfam.org/es/notas-prensa/cada-ano-189-millones-de-personas-son-afectadas-por-fenomenos-meteorologicos-extremos",
+			"https://www.oxfam.org/es/notas-prensa/cada-ano-189-millones-de-personas-son-afectadas-por-fenomenos-meteorologicos-extremos"
+		],
+		"statement": "El número de personas que mueren por desastres meteorológicos ha disminuido en un 97% en términos per cápita.",
+		"veredict": "La información proporcionada en el texto es parcialmente falsa. Si bien es cierto que el informe destaca que un promedio de 189 millones de personas se ven afectadas por fenómenos meteorológicos extremos en los países en desarrollo, también menciona que el número de personas fallecidas a causa de estos fenómenos ascendió a 676.000. Esto significa que no ha habido una disminución del 97% en el número de personas que mueren por desastres meteorológicos en términos per cápita. Por lo tanto, se puede concluir que esta parte de la información es parcialmente falsa."
+	},
+	{
+		"sources": [
+			"https://www.un.org/es/climatechange/what-is-climate-change",
+			"https://archive.ipcc.ch/home_languages_main_spanish.shtml",
+			"https://www.un.org/es/global-issues/climate-change",
+			"https://www.un.org/es/climatechange/what-is-climate-change",
+			"https://www.un.org/es/global-issues/climate-change"
+		],
+		"statement": "El mayor problema con el cambio climático es cómo estamos lidiando con él, intentando controlar lo incontrolable.",
+		"veredict": "La información es parcialmente verdadera. Si bien es cierto que uno de los mayores problemas con el cambio climático es cómo estamos abordándolo, no es cierto que estemos intentando controlar lo incontrolable. En realidad, muchas de las soluciones propuestas para combatir el cambio climático, como reducir las emisiones de gases de efecto invernadero y transitar hacia energías renovables, son perfectamente factibles y pueden tener un impacto positivo en la mitigación de sus efectos. Es importante reconocer que hay acciones concretas que pueden tomarse para enfrentar el cambio climático, y no solo resignarnos a enfrentar algo que parece estar fuera de nuestro control."
+	},
+	{
+		"sources": [
+			"https://www.bbc.com/mundo/noticias-internacional-43206097",
+			"https://www.bbc.com/mundo/noticias-internacional-43206097",
+			"https://www.un.org/spanish/waterforlifedecade/waterforlifevoices/casos_fao_lake_chad.shtml#:~:text=El%20Lago%20Chad%2C%20una%20vez,Agricultura%20(FAO)%20ya%20avis%C3%B3.",
+			"https://www.bbc.com/mundo/noticias-internacional-43206097",
+			"https://www.bbc.com/mundo/noticias-internacional-43206097"
+		],
+		"statement": "El lago Chad se está reduciendo debido a decisiones humanas, no principalmente al cambio climático.",
+		"veredict": "La información proporcionada es parcialmente verdadera. Si bien es cierto que la evaporación del lago Chad y la reducción de su superficie se deben en gran medida a decisiones humanas, como la extracción de agua para irrigación, la construcción de represas y el manejo insostenible del agua, también es importante tener en cuenta que el cambio climático juega un papel significativo en esta crisis. La disminución de las lluvias y las variaciones en los patrones climáticos contribuyen a la sequía en la región y afectan la disponibilidad de agua en el lago. Por lo tanto, tanto las acciones humanas como el cambio climático están contribuyendo a la desaparición del lago Chad."
+	},
+	{
+		"sources": [
+			"https://www.un.org/es/climatechange/what-is-climate-change",
+			"https://www.ipcc.ch/languages-2/spanish/",
+			"https://www.un.org/es/global-issues/climate-change",
+			"https://ciencia.nasa.gov/cambio-climatico/evidencia/"
+		],
+		"statement": "Culpar cada desastre meteorológico al calentamiento global desafía el sentido común y el registro histórico de datos.",
+		"veredict": "La información es parcialmente verdadera. Si bien es cierto que no todos los desastres meteorológicos pueden atribuirse directamente al calentamiento global, también es cierto que existe evidencia científica que demuestra que el cambio climático causado por la actividad humana está aumentando la frecuencia e intensidad de algunos fenómenos meteorológicos extremos. Por lo tanto, si bien no se puede culpar al calentamiento global de todos los desastres meteorológicos, sí es importante considerarlo como un factor que puede influir en su aparición y magnitud."
+	},
+	{
+		"sources": [],
+		"statement": "Los científicos del clima no están de acuerdo en cuánto calentamiento está asociado con nuestras emisiones y cómo cambiará el clima en el futuro.",
+		"veredict": "Parcialmente falsa. Si bien existen ciertas incertidumbres y discrepancias entre los científicos del clima en cuanto a la magnitud exacta y los efectos específicos del cambio climático, existe un consenso abrumador en la comunidad científica de que el cambio climático es causado por las actividades humanas, principalmente la quema de combustibles fósiles, y que está provocando un calentamiento global significativo. Se han realizado numerosos estudios y análisis que respaldan esta afirmación, por lo que si bien puede haber cierta variación en las proyecciones exactas, la idea general del impacto del cambio climático causado por el ser humano es ampliamente aceptada."
+	},
+	{
+		"sources": [],
+		"statement": "No podemos predecir el clima futuro con certeza y debemos adaptarnos a lo que la Madre Naturaleza presente.",
+		"veredict": "Verdadera. La predicción del clima futuro es incierta debido a la complejidad de los sistemas climáticos y las múltiples variables que influyen en ellos. Por lo tanto, es importante adaptarnos a las condiciones climáticas presentes en lugar de intentar predecir lo que sucederá en el futuro. Esto implica tomar medidas para mitigar los efectos del cambio climático y ser resilientes frente a eventos meteorológicos extremos. La naturaleza es impredecible, por lo que debemos estar preparados para enfrentar sus desafíos."
+	}
+]
