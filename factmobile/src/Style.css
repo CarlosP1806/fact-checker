@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+.start{
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 13rem;
+    height: 13rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    pointer: cursor;
+}
+.testart{
+    color:white;
+    font:bold;
+    font-size: 25px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.testop{
+    color:black;
+    font:bold;
+    font-size: 15px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .mobile{
+    display:flex;
+    align-items: center;
+    width:40rem;
+    height: full;
+    background-color: #1f1e1c;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .stop{
+    margin-top: 2rem;
+    background-color: light-gray;
+    color: black;
+    border-radius: 10px;
+    width: 10rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    pointer: cursor;
+  }
+  .fact{
+    color:white;
+    font-size: 40px;
+    font-weight:bold;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .audio {
+    margin-top: 2rem;
+    width: 20rem;
+    height: 60px;
+    background-color: white;
+    border: 1px solid #dee2e6;
+    border-radius: 2rem;
+    outline: none;
+}
+.factos{
+    position:relative;
+    text-align:left;
+    color:white;
+    font-size: 25px;
+    font-weight:bold;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.tarjeta{
+    background-color: #252525;
+    width: 25rem;
+    height: 30rem;
+    border-radius: 10px;
+    padding: 2rem;
+    bottom: 2rem;
+}
+.factopeq{
+    font-weight:bold;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    color:white;
+    margin-left: 6rem;
+    position:relative;
+    text-align: justify;
+    width: 70% !important;
+}
+.tirando-factos{
+  color:white;
+  font-size: 1rem;
+  text-align: justify;
+  top:8rem;
+  position: relative;
+}
+.buenoi{
+  width: 5rem !important;
+  z-index:9999 ;
+  margin-right: 20rem;
+  top: 2rem;
+  position:relative !important;
+}
+.mini {
+  position: relative;
+  top:5rem;
+  height: 60px;
+  background-color: #84b6f4;
+  border: 1px solid #dee2e6;
+  border-radius: 20px;
+  outline: none;
+}
+
+.contar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tarjeta {
+  cursor: pointer;
+}
+.tarjeta-content {
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.tarjeta-content.flipped {
+  transform: rotateY(180deg);
+}
+.tarjeta-content p, .tarjeta-content img {
+  backface-visibility: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.sourc {
+  transform: rotateY(180deg);
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  color:white;
+  font-size: 15px;
+  word-wrap: break-word !important;
+  top: 5rem; 
+}
+.fuenteortiz{
+  font-weight:bold;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  color:white;
+  bottom: 2rem;
+  position:relative;
+  font-size: 20px;
+}
