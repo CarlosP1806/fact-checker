@@ -36,13 +36,13 @@
     display:flex;
     align-items: center;
     width:40rem;
-    height: 80rem;
+    height: 100rem;
     background-color: #1f1e1c;
     flex-direction: column;
     justify-content: center;
   }
   .stop{
-    margin-top: 5rem;
+    margin-top: 2rem;
     background-color: light-gray;
     color: black;
     border-radius: 10px;
@@ -111,4 +111,21 @@
   position: relative;
   margin-right: 18rem;
   top:-3rem;
+}
+.mini {
+  position: relative;
+  top:5rem;
+  height: 60px;
+  background-color: #84b6f4;
+  border: 1px solid #dee2e6;
+  border-radius: 20px;
+  outline: none;
+}
+
+.contar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem; /* Esto dará un espacio de 3rem entre las tarjetas */
 }
