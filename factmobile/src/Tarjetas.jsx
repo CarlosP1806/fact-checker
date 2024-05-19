@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import bueno from './images/check.png';
 import malo from './images/delete.png';
-import neutro from './images/neutro.png';
+import parverd from './images/parverd.png';
+import parf  from './images/parf.png'; 
 
 const Tarjetas = ({ data, isLoading }) => {
   // Define un estado para manejar si la tarjeta está volteada
@@ -12,15 +13,19 @@ const Tarjetas = ({ data, isLoading }) => {
     setFlippedIndex(flippedIndex === index ? null : index);
   };
   const getImage = (veredict) => {
-    if (veredict.includes('parcialmente')) {
+    if (veredict.includes('parcialmente') || veredict.includes('Parcialmente')) {
       if (veredict.includes('verdadera')) {
-        return bueno;
+        return parverd;
       } else if (veredict.includes('falsa')) {
-        return malo;
+        return parf;
       }
     }
-    // Imagen por defecto
-    return neutro;
+    else if (!(veredict.includes('parcialmente')) && veredict.includes('Verdadera') || veredict.includes('verdadera')) {
+        return bueno;
+      }
+    else if (!(veredict.includes('parcialmente')) && veredict.includes('Falsa') || veredict.includes('falsa')) {
+      return malo;
+    }
   };
 
   if(isLoading) {
