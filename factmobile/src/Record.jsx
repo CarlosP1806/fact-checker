@@ -68,7 +68,7 @@ const RecordView = () => {
               <p className="testop">Parar de grabar</p>
             </button>
             <audio className="mini" src={mediaBlobUrl} controls autoPlay />
-            <button onClick={() => onSubmitRecord(mediaBlobUrl)}>Submit</button>
+            <button className="submit" onClick={() => onSubmitRecord(mediaBlobUrl)}>Subir grabación</button>
             <br/>
             <br/>
             <br/>
@@ -76,12 +76,12 @@ const RecordView = () => {
             <br/>
             <br/>
             <input type="file" id="fileInput" style={{display: 'none'}} onChange={(e) => setFile(e.target.files[0])} />
-  <button className="stop" onClick={() => document.getElementById('fileInput').click()}>
+  <button className="elegir" onClick={() => document.getElementById('fileInput').click()}>
     <FontAwesomeIcon icon={faPaperclip} /> 
     &nbsp; <p className="testop">Elegir archivo</p>
   </button>
-  <button onClick={onSubmitAudio}>
-    Subir
+  <button className="subar" onClick={onSubmitAudio}>
+    Subir archivo
   </button>
             <br/>
             <br/>

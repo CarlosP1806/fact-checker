@@ -27,6 +27,19 @@
     font-weight: 400;
     font-style: normal;
 }
+.elegir{
+  margin-top: -3rem;
+  background-color: light-gray;
+  color: black;
+  border-radius: 10px;
+  width: 10rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  pointer: cursor;
+}
 .archivo-black-regular {
     font-family: "Archivo Black", sans-serif;
     font-weight: 400;
@@ -35,7 +48,7 @@
   .mobile{
     display:flex;
     align-items: center;
-    width:40rem;
+    width:full;
     height: full;
     background-color: #1f1e1c;
     flex-direction: column;
@@ -81,14 +94,20 @@
     font-weight: 400;
     font-style: normal;
 }
-.tarjeta{
-    background-color: #252525;
-    width: 25rem;
-    height: 28rem;
-    border-radius: 10px;
-    padding: 2rem;
-    bottom: 2rem;
-    margin: 2rem;
+.tarjeta {
+  background-color: #252525;
+  width: 25rem;
+  height: 28rem;
+  border-radius: 10px;
+  padding: 2rem;
+  bottom: 2rem;
+  margin: 2rem;
+}
+
+@media (max-width: 768px) {
+  .tarjeta {
+      width: 20vw; 
+  }
 }
 .factopeq{
     font-weight:bold;
@@ -166,4 +185,43 @@
   bottom: 2rem;
   position:relative;
   font-size: 20px;
+}
+.submit{
+  color:black;
+  background-color: gray;
+  font:bold;
+  font-size: 15px;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border-radius: 10px;
+  transition: transform 0.3s; 
+  bottom: 2rem;
+  position:relative;
+}
+
+.submit:hover {
+  transform: scale(1.5); /* Hace que el botón sea un 10% más grande */
+}
+
+.subar{
+  color:black;
+  background-color: gray;
+  font:bold;
+  font-size: 15px;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border-radius: 10px;
+  transition: transform 0.3s; 
+  top: 2rem;
+  position:relative;
+}
+
+.subar:hover {
+  transform: scale(1.5); /* Hace que el botón sea un 10% más grande */
+}
+.loading{
+  color:white;
+  font-weight:bold;
 }
